@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BlueSerial</string>
+    
+    <!-- src -> activity_main.xml -->
+    <string name="tv1">请连接控制器</string>
+    <string name="tb1">A</string>
+    <string name="tb2">B</string>
+    <string name="b1">C</string>
+    <string name="b2">D</string>
+    
+    <!-- src -> MainActivity.java -->
+    <string name="not_connected">请连接蓝牙设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙不可用</string>
+    <string name="title_connecting">连接中</string>
+    <string name="title_connected_to">连接到: </string>
+    <string name="title_not_connected">请连接蓝牙设备</string>
+    
+    <!-- src -> DeviceListActivity.java -->
+    <string name="scanning">扫描设备</string>
+    <string name="select_device">选择一个设备连接</string>
+    <string name="none_paired">没有设备被匹配</string>
+    <string name="none_found">找不到任何设备</string>
+    <string name="title_paired_devices">已经匹配的设备</string>
+    <string name="title_other_devices">其他可用设备</string>
+    <string name="button_scan">扫描设备</string>
+    
+    <!-- Meun -> main.xml -->
+    <string name="menu_scan">连接</string>
+    <string name="menu_settings">打开传感器</string>
+    <string name="menu_about">关于</string>
+	<string name="help_dialog_text">
+	    <b>BlueSerial</b>\n
+	    <b>Version: 1.0.0(20131115)</b>\n\n
+	    <b>BlueSerial 是蓝牙串口应用软件</b>\n\n\n
+	    <i>有任何建议或者反馈可以联系:</i>\n
+	    <i>Author: Jeffrey Lau</i>\n
+	    <i>Mr.lau7@gmail.com</i>\n
+	</string>
+</resources>
